@@ -1,0 +1,13 @@
+<h1>This is the html fam</h1>
+
+<a href="{% url 'about' %}">About </a>
+<br />
+
+<br />
+{{ejemploetiqueta}}
+
+<form action="{% url 'count' %}">
+    <textarea cols="80"  rows="15" name="fulltext"></textarea>
+    <br/>
+    <input type="submit" value="Send" />
+</form>
